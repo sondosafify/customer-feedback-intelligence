@@ -1,0 +1,40 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/raw/*
+data/processed/*
+data/external/*
+
+# Trained models / large files
+models/
+aspect_sentiment_results/
+
+# Temporary files
+*.tmp
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+# Training checkpoints inside notebooks
+notebooks/**/checkpoint-*/
+notebooks/**/results/
+notebooks/**/aspect_extraction_results/
+notebooks/**/bert_sentiment_results/
+notebooks/**/bert_sentiment_binary_weighted_results/
+notebooks/**/bert_sentiment_weighted_results/
+notebooks/**/bert_emotion_results/

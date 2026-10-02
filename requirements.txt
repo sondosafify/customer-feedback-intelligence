@@ -1,0 +1,31 @@
+# Core
+pandas
+numpy
+scikit-learn
+
+# Deep Learning
+torch
+transformers
+accelerate
+
+# NLP / Embeddings
+sentence-transformers
+sentencepiece
+tiktoken
+protobuf
+
+# Topic Modeling
+bertopic
+umap-learn
+hdbscan
+plotly
+
+# Data Input
+openpyxl
+pymupdf
+
+# Model Utilities
+joblib
+
+# User Interface
+streamlit
